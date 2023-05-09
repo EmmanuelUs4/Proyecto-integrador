@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2023-05-09T21:28:58.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="Ynw1D_m73W_KhBm1iCqW" version="21.2.9" type="github">
+  <diagram name="Página-1" id="pgV8BqA2NS5M2HsJzy0s">
+    <mxGraphModel dx="2632" dy="2460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-1" value="workshop.MensajeriaExpress" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="480" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.247;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="asgHCUKytAaO8PrQ0lD8-2" target="asgHCUKytAaO8PrQ0lD8-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-2" value="controllers" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="asgHCUKytAaO8PrQ0lD8-3" target="asgHCUKytAaO8PrQ0lD8-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-3" value="DTO" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="350" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-4" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="630" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-5" value="Services" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="820" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EnviosController&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;@RestController&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;@RequestMapping(/api/v1)&lt;/span&gt;&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-85" width="430" height="280" as="geometry">
+            <mxRectangle x="330" y="60" width="190" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-7" value="-EnviosService enviosService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="asgHCUKytAaO8PrQ0lD8-6" vertex="1">
+          <mxGeometry y="60" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="asgHCUKytAaO8PrQ0lD8-6" vertex="1">
+          <mxGeometry y="86" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-9" value="@Autowired&lt;br&gt;+EnviosController(EnviosServices enviosServices)&lt;br&gt;@PostMapping(/envio)&lt;br&gt;+EstadoEnvioDTO crearEnvio(@RequestBody Envio Envio)&lt;br&gt;@PostMapping(/envio/{numeroDeGuia})&lt;br&gt;+EstadoEnvioDTO consultarUnEnvio(@PathVariable int numeroDeGuia)&lt;br&gt;@PutMapping(/envio/{cedula})&lt;br&gt;+EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio)&lt;br&gt;@PostMapping(/envios/{estadoDeEnvio})&lt;br&gt;+List&amp;lt;Envio&amp;gt; filtradoDeEnviosPorEstado(EstadoDeEnvio estadoDeEnvio, Integer cedula)&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="asgHCUKytAaO8PrQ0lD8-6" vertex="1">
+          <mxGeometry y="94" width="430" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-11" value="Envio&lt;br&gt;@Entity @Getter @Setter&lt;br&gt;@Table(name = &quot;Envios&quot;)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="205" width="290" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-12" value="-int numeroDeGuia&lt;br&gt;-Cliente cliente&lt;br&gt;-String ciudadOrigen&lt;br&gt;-String ciudadDestino&lt;br&gt;-String direccionDestino&lt;br&gt;-String nombreReceptor&lt;br&gt;-int celularReceptor&lt;br&gt;-String horaDeEntrega&lt;br&gt;-EstadoDeEnvio estadoDelEnvio&lt;br&gt;-int valorDelEnvio&lt;br&gt;-Paquete paquete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="asgHCUKytAaO8PrQ0lD8-11" vertex="1">
+          <mxGeometry y="60" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="asgHCUKytAaO8PrQ0lD8-11" vertex="1">
+          <mxGeometry y="230" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="asgHCUKytAaO8PrQ0lD8-14" value="+Envio(int numeroDeGuia,Cliente cliente,String ciudadOrigen,String ciudadDestino,String direccionDestino,String nombreReceptor,int celularReceptor,String horaDeEntrega,EstadoDeEnvio estadoDelEnvio,int valorDelEnvio,Paquete paquete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="asgHCUKytAaO8PrQ0lD8-11" vertex="1">
+          <mxGeometry y="238" width="290" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
