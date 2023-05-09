@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T22:45:03.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="jFYDofa3ZvMvvcgLS71z" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T22:52:24.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="3PJbizbfi6SW1BP3XpW_" version="21.2.9" type="github">
   <diagram name="Página-1" id="ySL4BDVTZSwwRdq82cRJ">
-    <mxGraphModel dx="2813" dy="2589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,17 +90,17 @@
         <mxCell id="Mz4hinDlCuqVSacD7mdC-25" value="+EnviosService(EnviosRepository enviosRepository, ClientesRepository clientesRepository,&lt;br&gt;PaquetesRepository paquetesRepository,&lt;br&gt;EmpleadosRepository empleadosRepository,&lt;br&gt;PaquetesService paquetesService)&lt;br&gt;&lt;br&gt;+Envio&amp;nbsp; &amp;nbsp;crearEnvio(@RequestBody&amp;nbsp; Envio envio)&lt;br&gt;&lt;br&gt;+EstadoEnvioDTO consultarUnEnvio(int numeroDeGuia, Envio envio)&lt;br&gt;&lt;br&gt;+EdicionEstadoEnvioDTO actualizarEstadoEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio,&amp;nbsp; &amp;nbsp; DatosEmpleado empleado)&lt;br&gt;&lt;br&gt;+List&amp;lt;Envio&amp;gt; &lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(255, 198, 109);&quot;&gt;filtradoDeEnviosConEstado&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;(EstadoDeEnvio estadoDeEnvio&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;Integer cedula)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-22">
           <mxGeometry y="128" width="350" height="272" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-27" value="@RestController&lt;br&gt;@RequestMapping(&quot;/api/v1&quot;)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-190" width="290" height="110" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-27" value="@RestController&lt;br&gt;@RequestMapping(&quot;/api/v1&quot;)&lt;br&gt;EnviosController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-190" width="290" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-28" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
-          <mxGeometry y="50" width="290" height="26" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-28" value="-EnviosService enviosServices" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
-          <mxGeometry y="76" width="290" height="8" as="geometry" />
+          <mxGeometry y="86" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-30" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
-          <mxGeometry y="84" width="290" height="26" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-30" value="+EnviosController(EnviosServices&amp;nbsp; enviosService)&lt;br&gt;&lt;br&gt;@PostMapping(&quot;/envio&quot;)&lt;br&gt;+EstadoEnvioDTO crearEnvio(@RequestBody Envio envio)&lt;br&gt;&lt;br&gt;@PostMapping(&quot;/envio/{numeroDeGuia}&quot;)&lt;br&gt;+EstadoEnvioDTO consultarUnEnvio(@PathVariable int numeroDeGuia, Envio&amp;nbsp; envio)&lt;br&gt;&lt;br&gt;@PutMappping(&quot;/envio/{cedula}&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
+          <mxGeometry y="94" width="290" height="226" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
