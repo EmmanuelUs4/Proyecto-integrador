@@ -17,7 +17,7 @@ Este microservicio permite a Mensajería Express poder registras clientes y mane
 -Java
 -Swagger
 
-# Funcionalidades
+# Funcionalidades acerca del cliente
 
 @PostMapping
 
@@ -38,6 +38,7 @@ consultarClientes(){Este método nos permite consultar todos los clientes regist
 @PutMapping
 
 editarUnCliente(Integer cedula){ Este método nos permite editar un cliente previamente registrado a través de su cédula
+     
      "cedula":"",
      "nombre":"",
      "apellidos":"",
@@ -51,4 +52,74 @@ editarUnCliente(Integer cedula){ Este método nos permite editar un cliente prev
 
 eliminarUnCliente(Integer cedula) {Este método permite eliminar un cliente a través de su cédula}
 
-continuará...
+# Funcionalidades acerca del empleado
+
+@PostMapping
+
+crearEmpleado(Empleado empleado) {Permite crear un empleado
+     
+     "cedula":"",
+     "nombreDelEmpleado":"",
+     "apellidoDelEmpleado":"",
+     "celular":"",
+     "correoElectronico":"",
+     "direccionDeResidencia":"",
+     "ciudad":"",
+     "antiguedadEnLaEmpresa":"",
+     "tipoDeSangre":"",
+     "tipoDeEmpleado":""
+
+}
+
+Empleado consultarEmpleado(@PathVariable Integer cedula){Mediante una cédula, podremos consultar el empleado
+     "cedula":""
+}
+
+List<Empleado> consultarEmpleados(){Consultar todos los empleados, ejemplo del retorno:
+     [
+          {
+          "cedula":"",
+          "nombreDelEmpleado":"",
+          "apellidoDelEmpleado":"",
+          "celular":"",
+          "correoElectronico":"",
+          "direccionDeResidencia":"",
+          "ciudad":"",
+          "antiguedadEnLaEmpresa":"",
+          "tipoDeSangre":"",
+          "tipoDeEmpleado":""
+          },
+          {
+          "cedula":"",
+          "nombreDelEmpleado":"",
+          "apellidoDelEmpleado":"",
+          "celular":"",
+          "correoElectronico":"",
+          "direccionDeResidencia":"",
+          "ciudad":"",
+          "antiguedadEnLaEmpresa":"",
+          "tipoDeSangre":"",
+          "tipoDeEmpleado":""
+          }
+     ]
+}
+
+
+@PutMapping
+     
+     
+Empleado editarEmpleado(Empleado empleado){editar un empleado}
+
+
+@DeleteMapping
+
+ResponseEntity<?> deleteEmpleado(@PathVariable Integer cedula){eliminar un empleado apartir de su cédula}
+
+
+
+
+
+
+
+
+
