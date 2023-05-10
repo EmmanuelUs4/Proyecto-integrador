@@ -75,7 +75,7 @@ public class EnviosServiceTest {
         Envio envio = new Envio();
         envio.setNumeroDeGuia(numeroDeGuia);
 
-        assertTrue(enviosService.consultarUnEnvio(numeroDeGuia, envio)!=null);
+        assertTrue(enviosService.consultarUnEnvio(numeroDeGuia)!=null);
 
 
     }

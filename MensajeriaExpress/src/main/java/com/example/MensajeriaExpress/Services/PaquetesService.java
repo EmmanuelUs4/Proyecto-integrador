@@ -17,9 +17,6 @@ public class PaquetesService {
     private static final Integer PESO_MEDIANO=40000;
     private static final Integer PESO_GRANDE=50000;
     private static final String CODIGO_DIGITOS="0123456789";
-
-
-
     private PaquetesRepository paquetesRepository;
 
     @Autowired

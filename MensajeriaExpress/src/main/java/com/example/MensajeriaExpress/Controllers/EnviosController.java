@@ -25,8 +25,8 @@ public class EnviosController {
     }
 
     @PostMapping("/envio/{numeroDeGuia}")
-    public EstadoEnvioDTO  consultarUnEnvio(@PathVariable int numeroDeGuia, Envio envio){
-        return this.enviosService.consultarUnEnvio(numeroDeGuia, envio);
+    public EstadoEnvioDTO  consultarUnEnvio(@PathVariable int numeroDeGuia){
+        return this.enviosService.consultarUnEnvio(numeroDeGuia);
     }
 
 

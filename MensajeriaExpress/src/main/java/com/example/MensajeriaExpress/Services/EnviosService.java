@@ -74,15 +74,15 @@ public class EnviosService {
     }
 
 
-    public EstadoEnvioDTO consultarUnEnvio(int numeroDeGuia, Envio envio){
+    public EstadoEnvioDTO consultarUnEnvio(int numeroDeGuia){
         Optional<Envio> envioOptional = this.enviosRepository.findById(numeroDeGuia);
         if (!envioOptional.isPresent()){
             throw new ShipmentNotFound("No se ha encontrado el envío solicitado.");
         }
+        Envio envio = envioOptional.get();
         EstadoEnvioDTO estadoEnvioDTO = new EstadoEnvioDTO(numeroDeGuia, envio.getEstadoDelEnvio());
         return estadoEnvioDTO;
     }
-
 
     public EdicionEstadoEnvioDTO actualizarEstadoEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio, DatosEmpleado empleado){
         Integer cedula= empleado.getCedula();
