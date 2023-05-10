@@ -172,7 +172,8 @@ EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizar
 ![Diagrama general de Paquete drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/b9b6f2d0-2944-411b-b94e-cb5874acd4e3)
 
 # Diagrama general del Envio
-![Diagrama general de Envios drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/9900729e-9f31-4b77-9350-2c82ada7136d)
+![Diagrama general de Envios drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/cc608cba-9b14-4f9d-a159-e41c8c1e478f)
+
 
 
 
