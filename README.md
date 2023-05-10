@@ -117,6 +117,45 @@ Empleado editarEmpleado(Empleado empleado){editar un empleado}
 ResponseEntity<?> deleteEmpleado(@PathVariable Integer cedula){eliminar un empleado apartir de su cédula}
 
 
+# Funcionalidades acerca del Envio
+
+@PostMapping
+
+crearEnvio(@RequestBody Envio envio){Con esta funcionalidad podremos crear un envio, ejemplo de creacion:
+
+          {
+               "celularReceptor": 0,
+               "ciudadDestino": "string",
+               "ciudadOrigen": "string",
+               "cliente": {
+               "apellidos": "string",
+               "cedula": 0,
+               "celular": 0,
+               "ciudad": "string",
+               "correoElectronico": "string",
+               "direccionDeResidencia": "string",
+               "nombre": "string"
+          },
+               "direccionDeDestino": "string",
+               "estadoDelEnvio": "RECIBIDO",
+               "horaDeEntrega": "string",
+               "nombreRecetor": "string",
+               "numeroDeGuia": 0,
+               "paquete": {
+                    "identificacionPaquete": 0,
+                    "peso": 0,
+                    "tipoDePaquete": "LIVIANO",
+                    "valorDeclarado": 0
+          },
+               "valorDelEnvio": 0
+          }
+
+
+}
+
+
+@PutMapping
+
 
 
 
