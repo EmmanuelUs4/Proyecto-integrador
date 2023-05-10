@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T23:53:10.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="iogG1Y4U464LPouIXEWo" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T00:02:12.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="UOOge1uVDytT03zmOPYH" version="21.2.9" type="github">
   <diagram name="Página-1" id="eesV6tpuC6IB0zVmoVwT">
     <mxGraphModel dx="1131" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,19 +11,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-2" value="Controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="130" width="80" height="50" as="geometry" />
+          <mxGeometry x="230" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vfVGk62o_LiKFPC6awDZ-3" target="vfVGk62o_LiKFPC6awDZ-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-3" value="DTO" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="535" width="70" height="50" as="geometry" />
+          <mxGeometry x="240" y="590" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vfVGk62o_LiKFPC6awDZ-4" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="310" y="840" width="70" height="50" as="geometry" />
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vfVGk62o_LiKFPC6awDZ-4" target="vfVGk62o_LiKFPC6awDZ-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vfVGk62o_LiKFPC6awDZ-5" value="package" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1000" width="70" height="50" as="geometry" />
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-4" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vfVGk62o_LiKFPC6awDZ-5" target="vfVGk62o_LiKFPC6awDZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-5" value="Service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1115" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-6" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@RestController&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@RequestMapping&lt;/span&gt;(&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;/api/v1&quot;&lt;/span&gt;)&lt;br&gt;PaquetesController&lt;/pre&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#292929;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="440" height="210" as="geometry" />
+          <mxGeometry x="360" y="230" width="440" height="210" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-7" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#cc7832&quot;&gt;- &lt;/font&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;PaquetesService &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170);&quot;&gt;paquetesService&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=#292929;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-6">
           <mxGeometry y="70" width="440" height="40" as="geometry" />
@@ -35,7 +44,7 @@
           <mxGeometry y="118" width="440" height="92" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-11" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(169, 183, 198); font-weight: 400; text-align: left;&quot;&gt;&lt;div style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;@Entity&lt;span style=&quot;color:#bbb529;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@Table&lt;/span&gt;(name = &lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;Paquetes&quot;&lt;/span&gt;)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Paquete&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=70;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#292929;" vertex="1" parent="1">
-          <mxGeometry x="360" y="290" width="440" height="270" as="geometry" />
+          <mxGeometry x="360" y="480" width="440" height="270" as="geometry" />
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-12" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;- int &lt;/span&gt;&lt;span style=&quot;color:#9876aa;&quot;&gt;identificacionPaquete&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;- static &lt;/span&gt;TipoDePaquete &lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;tipoDePaquete&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;- &lt;/span&gt;Double &lt;span style=&quot;color:#9876aa;&quot;&gt;peso&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;- int &lt;/span&gt;&lt;span style=&quot;color:#9876aa;&quot;&gt;valorDeclarado&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=#292929;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-11">
           <mxGeometry y="70" width="440" height="94" as="geometry" />
@@ -45,6 +54,36 @@
         </mxCell>
         <mxCell id="vfVGk62o_LiKFPC6awDZ-14" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;+ &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;Paquete&lt;/span&gt;()&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;+ &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;Paquete&lt;/span&gt;(&lt;span style=&quot;color:#cc7832;&quot;&gt;int &lt;/span&gt;identificacionPaquete&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;TipoDePaquete tipoDePaquete&lt;span style=&quot;color:#cc7832;&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt; &lt;/span&gt;Double peso&lt;span style=&quot;color:#cc7832;&quot;&gt;, int &lt;/span&gt;valorDeclarado)&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=#292929;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-11">
           <mxGeometry y="172" width="440" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfVGk62o_LiKFPC6awDZ-18" target="vfVGk62o_LiKFPC6awDZ-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-18" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@Repository&lt;br&gt;&lt;/span&gt;PaquetesRepository&lt;/pre&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#292929;" vertex="1" parent="1">
+          <mxGeometry x="360" y="830" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-19" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@Service&lt;br&gt;&lt;/span&gt;PaquetesService&lt;/pre&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#292929;" vertex="1" parent="1">
+          <mxGeometry x="360" y="980" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-20" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;- static final &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;Integer &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170); font-style: italic;&quot;&gt;PESO_LIVIANO&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;- static final &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;Integer &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170); font-style: italic;&quot;&gt;PESO_MEDIANO&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;- static final &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;Integer &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170); font-style: italic;&quot;&gt;PESO_GRANDE&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;- static final &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;String &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170); font-style: italic;&quot;&gt;CODIGO_DIGITOS&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#cc7832&quot;&gt;- &lt;/font&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;PaquetesRepository &lt;/font&gt;&lt;span style=&quot;color: rgb(152, 118, 170);&quot;&gt;paquetesRepository&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=#292929;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-19">
+          <mxGeometry y="60" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-19">
+          <mxGeometry y="160" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-22" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;color: rgb(169, 183, 198);&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;+ &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;PaquetesService&lt;/span&gt;(PaquetesRepository paquetesRepository)&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;color: rgb(169, 183, 198);&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;+ static int &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;generarCodigo&lt;/span&gt;()&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#cc7832&quot;&gt;- &lt;/font&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;TipoDePaquete &lt;/font&gt;&lt;span style=&quot;color: rgb(255, 198, 109);&quot;&gt;tipoPaquete&lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;(Double peso)&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;- int &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;valorDelPaquete&lt;/span&gt;(Double peso&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;TipoDePaquete tipoPaquete)&lt;/pre&gt;&lt;pre&gt;&lt;div style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;+ &lt;/span&gt;Paquete &lt;span style=&quot;color:#ffc66d;&quot;&gt;crearPaquete&lt;/span&gt;(Paquete paquete)&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=#292929;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vfVGk62o_LiKFPC6awDZ-19">
+          <mxGeometry y="168" width="440" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="vfVGk62o_LiKFPC6awDZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vfVGk62o_LiKFPC6awDZ-20" target="vfVGk62o_LiKFPC6awDZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1090" />
+              <mxPoint x="830" y="335" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
