@@ -162,6 +162,20 @@ filtradoDeEnviosPorEstado(EstadoDeEnvio estadoDeEnvio, Integer cedula){filtrar e
 EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio, DatosEmpleado empleado){Editar el estado a través de su numero de guía y basándose en el rol del empleado pues, solo los REPARTIDOR y COORDINADOR pueden realizar cambios}
 
 
+# Diagrama general del Cliente
+![Diagrama general de Cliente drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/5009b55a-ef1b-4d62-b3c6-b3eee3abab19)
+
+# Diagrama general del Empleado
+![Diagrama general de Empleado drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/754515e0-c3f5-4c73-a6a8-a8cf476f9092)
+
+# Diagrama general del Paquete
+![Diagrama general de Paquete drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/b9b6f2d0-2944-411b-b94e-cb5874acd4e3)
+
+# Diagrama general del Envio
+![Diagrama general de Envios drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/9900729e-9f31-4b77-9350-2c82ada7136d)
+
+
+
 
 
 
