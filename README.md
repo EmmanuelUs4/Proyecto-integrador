@@ -76,6 +76,7 @@ Empleado consultarEmpleado(@PathVariable Integer cedula){Mediante una cédula, p
 }
 
 List<Empleado> consultarEmpleados(){Consultar todos los empleados, ejemplo del retorno:
+     
      [
           {
           "cedula":"",
