@@ -12,12 +12,39 @@ Este microservicio permite a Mensajería Express poder registras clientes y mane
 # Tecnologías
 
 -SpringBoot
+
+![spring-boot-logo](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/b3dd9960-411c-499e-bd75-74a356431186)
+
+
+
+
 -SpringJPA
+
+![image](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/c0efab29-eb7c-46eb-87e3-0a98808705ca)
+
+
+
+
 -H2
+
+![h2](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/bec98a9b-3b87-456d-bc6a-6273158377a9)
+
+
+
+
 -Java
+
+![1366_521](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/02e1285f-6019-4c9e-a958-fc6e1fe84207)
+
+
+
+
 -Swagger
 
-# Funcionalidades
+![descarga](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/94e4b709-5f01-4c8a-a54a-6b18d27505d6)
+
+
+# Funcionalidades acerca del cliente
 
 @PostMapping
 
@@ -38,6 +65,7 @@ consultarClientes(){Este método nos permite consultar todos los clientes regist
 @PutMapping
 
 editarUnCliente(Integer cedula){ Este método nos permite editar un cliente previamente registrado a través de su cédula
+     
      "cedula":"",
      "nombre":"",
      "apellidos":"",
@@ -51,4 +79,132 @@ editarUnCliente(Integer cedula){ Este método nos permite editar un cliente prev
 
 eliminarUnCliente(Integer cedula) {Este método permite eliminar un cliente a través de su cédula}
 
-continuará...
+# Funcionalidades acerca del empleado
+
+@PostMapping
+
+crearEmpleado(Empleado empleado) {Permite crear un empleado
+     
+     "cedula":"",
+     "nombreDelEmpleado":"",
+     "apellidoDelEmpleado":"",
+     "celular":"",
+     "correoElectronico":"",
+     "direccionDeResidencia":"",
+     "ciudad":"",
+     "antiguedadEnLaEmpresa":"",
+     "tipoDeSangre":"",
+     "tipoDeEmpleado":""
+
+}
+
+Empleado consultarEmpleado(@PathVariable Integer cedula){Mediante una cédula, podremos consultar el empleado
+     "cedula":""
+}
+
+List<Empleado> consultarEmpleados(){Consultar todos los empleados, ejemplo del retorno:
+     
+     [
+          {
+          "cedula":"",
+          "nombreDelEmpleado":"",
+          "apellidoDelEmpleado":"",
+          "celular":"",
+          "correoElectronico":"",
+          "direccionDeResidencia":"",
+          "ciudad":"",
+          "antiguedadEnLaEmpresa":"",
+          "tipoDeSangre":"",
+          "tipoDeEmpleado":""
+          },
+          {
+          "cedula":"",
+          "nombreDelEmpleado":"",
+          "apellidoDelEmpleado":"",
+          "celular":"",
+          "correoElectronico":"",
+          "direccionDeResidencia":"",
+          "ciudad":"",
+          "antiguedadEnLaEmpresa":"",
+          "tipoDeSangre":"",
+          "tipoDeEmpleado":""
+          }
+     ]
+}
+
+
+@PutMapping
+     
+     
+Empleado editarEmpleado(Empleado empleado){editar un empleado}
+
+
+@DeleteMapping
+
+ResponseEntity<?> deleteEmpleado(@PathVariable Integer cedula){eliminar un empleado apartir de su cédula}
+
+
+# Funcionalidades acerca del Envio
+
+@PostMapping
+
+crearEnvio(@RequestBody Envio envio){Con esta funcionalidad podremos crear un envio, ejemplo de creacion:
+
+          {
+               "celularReceptor": 0,
+               "ciudadDestino": "string",
+               "ciudadOrigen": "string",
+               "cliente": {
+               "apellidos": "string",
+               "cedula": 0,
+               "celular": 0,
+               "ciudad": "string",
+               "correoElectronico": "string",
+               "direccionDeResidencia": "string",
+               "nombre": "string"
+          },
+               "direccionDeDestino": "string",
+               "estadoDelEnvio": "RECIBIDO",
+               "horaDeEntrega": "string",
+               "nombreRecetor": "string",
+               "numeroDeGuia": 0,
+               "paquete": {
+                    "identificacionPaquete": 0,
+                    "peso": 0,
+                    "tipoDePaquete": "LIVIANO",
+                    "valorDeclarado": 0
+          },
+               "valorDelEnvio": 0
+          }
+
+}
+
+
+consultarUnEnvio(@PathVariable int numeroDeGuia, Envio envio){Consultar un  envío empleado el numero de guía}
+
+filtradoDeEnviosPorEstado(EstadoDeEnvio estadoDeEnvio, Integer cedula){filtrar envios de acuerdo a su estado: RECIBIDO / EN_RUTA / ENTREGADO}
+
+@PutMapping
+
+EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio, DatosEmpleado empleado){Editar el estado a través de su numero de guía y basándose en el rol del empleado pues, solo los REPARTIDOR y COORDINADOR pueden realizar cambios}
+
+
+# Diagrama general del Cliente
+![Diagrama general de Cliente drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/5009b55a-ef1b-4d62-b3c6-b3eee3abab19)
+
+# Diagrama general del Empleado
+![Diagrama general de Empleado drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/754515e0-c3f5-4c73-a6a8-a8cf476f9092)
+
+# Diagrama general del Paquete
+![Diagrama general de Paquete drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/b9b6f2d0-2944-411b-b94e-cb5874acd4e3)
+
+# Diagrama general del Envio
+![Diagrama general de Envios drawio](https://github.com/EmmanuelUs4/Proyecto-integrador/assets/120135105/cc608cba-9b14-4f9d-a159-e41c8c1e478f)
+
+
+
+
+
+
+
+

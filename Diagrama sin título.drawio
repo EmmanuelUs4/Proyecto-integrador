@@ -1,13 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T22:04:09.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="E0dxHfIUPOxzD63HtUOU" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T23:01:37.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0 (Edition std-1)" etag="1iUqRR_6DjfiRDpTkdWF" version="21.2.9" type="github">
   <diagram name="Página-1" id="ySL4BDVTZSwwRdq82cRJ">
-    <mxGraphModel dx="1820" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2355" dy="2314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=23;entryPerimeter=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-5" target="Mz4hinDlCuqVSacD7mdC-7">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=23;entryPerimeter=0;fillColor=#FF4603;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-5" target="Mz4hinDlCuqVSacD7mdC-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="20" y="53" />
+              <mxPoint x="20" y="-150" />
+              <mxPoint x="160" y="-150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -24,21 +25,21 @@
         <mxCell id="Mz4hinDlCuqVSacD7mdC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=32;entryPerimeter=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-5" target="Mz4hinDlCuqVSacD7mdC-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-5" value="workshop.MensajeriaExpress" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-5" value="workshop.MensajeriaExpress" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFF63;" vertex="1" parent="1">
           <mxGeometry x="-60" y="480" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.247;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-7">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281" y="55" as="targetPoint" />
+            <mxPoint x="280" y="-155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-7" value="controllers" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="30" width="80" height="50" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-7" value="controllers" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#03FF24;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-180" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-9" target="Mz4hinDlCuqVSacD7mdC-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-9" value="DTO" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-9" value="DTO" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#0873FF;" vertex="1" parent="1">
           <mxGeometry x="170" y="350" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-11">
@@ -46,7 +47,7 @@
             <mxPoint x="280" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-11" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-11" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FF00EE;" vertex="1" parent="1">
           <mxGeometry x="170" y="630" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-13">
@@ -54,32 +55,75 @@
             <mxPoint x="280" y="844.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-13" value="Services" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-13" value="Services" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FF5145;" vertex="1" parent="1">
           <mxGeometry x="170" y="820" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-14" value="Envio&lt;br&gt;@Entity @Getter @Setter&lt;br&gt;@Table(name = &quot;Envios&quot;)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="205" width="290" height="330" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-14" value="Envio&lt;br&gt;@Entity @Getter @Setter&lt;br&gt;@Table(name = &quot;Envios&quot;)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#00E5FF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="205" width="320" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-15" value="-int numeroDeGuia&lt;br&gt;-Cliente cliente&lt;br&gt;-String ciudadOrigen&lt;br&gt;-String ciudadDestino&lt;br&gt;-String direccionDestino&lt;br&gt;-String nombreReceptor&lt;br&gt;-int celularReceptor&lt;br&gt;-String horaDeEntrega&lt;br&gt;-EstadoDeEnvio estadoDelEnvio&lt;br&gt;-int valorDelEnvio&lt;br&gt;-Paquete paquete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-14">
-          <mxGeometry y="60" width="290" height="170" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-15" value="-int numeroDeGuia&lt;br&gt;-Cliente cliente&lt;br&gt;-String ciudadOrigen&lt;br&gt;-String ciudadDestino&lt;br&gt;-String direccionDestino&lt;br&gt;-String nombreReceptor&lt;br&gt;-int celularReceptor&lt;br&gt;-String horaDeEntrega&lt;br&gt;-EstadoDeEnvio estadoDelEnvio&lt;br&gt;-int valorDelEnvio&lt;br&gt;-Paquete paquete" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-14">
+          <mxGeometry y="60" width="320" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-14">
-          <mxGeometry y="230" width="290" height="8" as="geometry" />
+          <mxGeometry y="230" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-17" value="+Envio(int numeroDeGuia,Cliente cliente,String ciudadOrigen,String ciudadDestino,String direccionDestino,String nombreReceptor,int celularReceptor,String horaDeEntrega,EstadoDeEnvio estadoDelEnvio,int valorDelEnvio,Paquete paquete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-14">
-          <mxGeometry y="238" width="290" height="92" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-17" value="+Envio(int numeroDeGuia,Cliente cliente,String ciudadOrigen,String ciudadDestino,String direccionDestino,String nombreReceptor,int celularReceptor,String horaDeEntrega,EstadoDeEnvio estadoDelEnvio,int valorDelEnvio,Paquete paquete)" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-14">
+          <mxGeometry y="238" width="320" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-18" value="EnviosRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="550" width="160" height="86" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-18" target="Mz4hinDlCuqVSacD7mdC-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-19" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-18">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-18" value="EnviosRepository&lt;br&gt;@Repository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#CD05FF;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="280" y="640" width="150" height="40" as="geometry">
+            <mxRectangle x="280" y="550" width="160" height="48" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Mz4hinDlCuqVSacD7mdC-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-18">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Mz4hinDlCuqVSacD7mdC-21" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-18">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-22" value="@Service&lt;br&gt;EnviosService&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FF5E00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-23" value="-EnviosRepository enviosRepository&lt;br&gt;-ClientesRepository clientesRepository&lt;br&gt;-PaquetesRepository paquetesRepository&lt;br&gt;-EmpleadosRepository empleadosRepository&lt;br&gt;-PaquetesService paquetesService" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-22">
+          <mxGeometry y="40" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-22">
+          <mxGeometry y="120" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-25" value="+EnviosService(EnviosRepository enviosRepository, ClientesRepository clientesRepository,&lt;br&gt;PaquetesRepository paquetesRepository,&lt;br&gt;EmpleadosRepository empleadosRepository,&lt;br&gt;PaquetesService paquetesService)&lt;br&gt;&lt;br&gt;+Envio&amp;nbsp; &amp;nbsp;crearEnvio(@RequestBody&amp;nbsp; Envio envio)&lt;br&gt;&lt;br&gt;+EstadoEnvioDTO consultarUnEnvio(int numeroDeGuia, Envio envio)&lt;br&gt;&lt;br&gt;+EdicionEstadoEnvioDTO actualizarEstadoEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio,&amp;nbsp; &amp;nbsp; DatosEmpleado empleado)&lt;br&gt;&lt;br&gt;+List&amp;lt;Envio&amp;gt; &lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(255, 198, 109);&quot;&gt;filtradoDeEnviosConEstado&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;(EstadoDeEnvio estadoDeEnvio&lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;Integer cedula)&lt;/span&gt;" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-22">
+          <mxGeometry y="128" width="320" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-27" value="@RestController&lt;br&gt;@RequestMapping(&quot;/api/v1&quot;)&lt;br&gt;EnviosController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#A6FF0D;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-190" width="320" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-28" value="-EnviosService enviosServices" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
+          <mxGeometry y="86" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-30" value="+EnviosController(EnviosServices&amp;nbsp; enviosService)&lt;br&gt;&lt;br&gt;@PostMapping(&quot;/envio&quot;)&lt;br&gt;+EstadoEnvioDTO crearEnvio(@RequestBody Envio envio)&lt;br&gt;&lt;br&gt;@PostMapping(&quot;/envio/{numeroDeGuia}&quot;)&lt;br&gt;+EstadoEnvioDTO consultarUnEnvio(@PathVariable int numeroDeGuia, Envio&amp;nbsp; envio)&lt;br&gt;&lt;br&gt;@PutMappping(&quot;/envio/{cedula}&quot;)&lt;br&gt;+EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio, DatosEmpleado&amp;nbsp; &amp;nbsp;empleado)&lt;br&gt;&lt;br&gt;@PostMapping(&quot;/envios/{estadoDeEnvio}&quot;)&lt;br&gt;+List&amp;lt;Envio&amp;gt; filtradoDeEnviosPorEstado(EstadoDeEnvio&amp;nbsp; estadoDeEnvio, Integer cedula)" style="text;strokeColor=none;fillColor=#FCFFE0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mz4hinDlCuqVSacD7mdC-27">
+          <mxGeometry y="94" width="320" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-25" target="Mz4hinDlCuqVSacD7mdC-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1064" />
+              <mxPoint x="810" y="51" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mz4hinDlCuqVSacD7mdC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.313;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mz4hinDlCuqVSacD7mdC-15" target="Mz4hinDlCuqVSacD7mdC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="350" />
+              <mxPoint x="620" y="1013" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
