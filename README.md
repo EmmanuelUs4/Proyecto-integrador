@@ -150,13 +150,16 @@ crearEnvio(@RequestBody Envio envio){Con esta funcionalidad podremos crear un en
                "valorDelEnvio": 0
           }
 
-
 }
 
 
+consultarUnEnvio(@PathVariable int numeroDeGuia, Envio envio){Consultar un  envío empleado el numero de guía}
+
+filtradoDeEnviosPorEstado(EstadoDeEnvio estadoDeEnvio, Integer cedula){filtrar envios de acuerdo a su estado: RECIBIDO / EN_RUTA / ENTREGADO}
+
 @PutMapping
 
-
+EdicionEstadoEnvioDTO actualizacionDeEnvio(ActualizarInformacionEnvio actualizarInformacionEnvio, DatosEmpleado empleado){Editar el estado a través de su numero de guía y basándose en el rol del empleado pues, solo los REPARTIDOR y COORDINADOR pueden realizar cambios}
 
 
 
