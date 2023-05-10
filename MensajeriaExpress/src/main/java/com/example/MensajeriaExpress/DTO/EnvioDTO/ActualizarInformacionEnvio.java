@@ -15,6 +15,6 @@ public class ActualizarInformacionEnvio {
 
     private EstadoDeEnvio estadoDeEnvio;
 
-
-
+    public ActualizarInformacionEnvio() {
+    }
 }

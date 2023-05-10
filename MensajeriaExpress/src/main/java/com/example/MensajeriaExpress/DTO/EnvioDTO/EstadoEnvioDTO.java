@@ -13,4 +13,6 @@ public class EstadoEnvioDTO {
 
     private int numeroDeGuiaDTO;
     private EstadoDeEnvio estadoDelEnvioDTO;
+
+    public EstadoEnvioDTO(){}
 }

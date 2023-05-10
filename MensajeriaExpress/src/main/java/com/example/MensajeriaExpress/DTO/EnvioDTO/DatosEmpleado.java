@@ -14,4 +14,7 @@ public class DatosEmpleado {
     private Integer cedula;
 
     private TipoDeEmpleado tipoDeEmpleado;
+
+    public DatosEmpleado() {
+    }
 }

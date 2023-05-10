@@ -3,8 +3,6 @@ package com.example.MensajeriaExpress.Services;
 import com.example.MensajeriaExpress.Exception.ClientNotFound;
 import com.example.MensajeriaExpress.DTO.ClienteDTO.Cliente;
 import com.example.MensajeriaExpress.Repository.ClientesRepository;
-import com.example.MensajeriaExpress.Repository.EnviosRepository;
-import com.example.MensajeriaExpress.Repository.PaquetesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,42 +14,44 @@ public class ClientesService {
 
     private ClientesRepository clientesRepository;
 
-    private PaquetesRepository paquetesRepository;
-
-    private EnviosRepository enviosRepository;
 
     @Autowired
-    public ClientesService(ClientesRepository clientesRepository, PaquetesRepository paquetesRepository, EnviosRepository enviosRepository) {
+    public ClientesService(ClientesRepository clientesRepository) {
         this.clientesRepository = clientesRepository;
-        this.paquetesRepository = paquetesRepository;
-        this.enviosRepository = enviosRepository;
+
     }
 
     public Cliente crearCliente(Cliente cliente){
-        this.clientesRepository.save(cliente);
-        return cliente;
+        return this.clientesRepository.save(cliente);
+
     }
 
-    public Cliente editarCliente(Cliente cliente){
-        //
-        this.clientesRepository.save(cliente);
-        return cliente;
-    }
 
-    public void eliminarClientePorCedula(Integer cedula){
-        Optional<Cliente>clienteOptional = clientesRepository.findById(cedula);
-        if (!clienteOptional.isPresent()){
-            throw new ClientNotFound("No se encontró el cliente.");
+
+    public Cliente editarCliente(Cliente cliente) {
+        Integer cedula = cliente.getCedula();
+        Optional<Cliente> clienteEncontrado = clientesRepository.findById(cedula);
+        if (clienteEncontrado.isPresent()) {
+            Cliente clienteActualizado = clienteEncontrado.get();
+            clienteActualizado.setNombre(cliente.getNombre());
+            clienteActualizado.setApellidos(cliente.getApellidos());
+            clienteActualizado.setCelular(cliente.getCelular());
+            clienteActualizado.setCorreoElectronico(cliente.getCorreoElectronico());
+            clienteActualizado.setDireccionDeResidencia(cliente.getDireccionDeResidencia());
+            clienteActualizado.setCiudad(cliente.getCiudad());
+            return clientesRepository.save(clienteActualizado);
+        } else {
+            throw new ClientNotFound("No se encontró un cliente con la cédula" + cedula);
         }
+    }
+
+    public Boolean eliminarClientePorCedula(Integer cedula){
         this.clientesRepository.deleteById(cedula);
+        return true;
     }
 
-    public Cliente consultarUnCliente(Integer cedula){
-        Optional<Cliente> clienteOptional = this.clientesRepository.findById(cedula);
-        if (!clienteOptional.isPresent()){
-            throw new ClientNotFound("No se ha encontrado el cliente solicitado.");
-        }
-        return clienteOptional.get();
+    public Optional<Cliente> consultarUnCliente(Integer cedula){
+        return this.clientesRepository.findById(cedula);
     }
 
     public List<Cliente> consultarTodosLosClientes(){

@@ -33,7 +33,8 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(String nombre, String apellidos) {
+    public Cliente(int cedula,String nombre, String apellidos) {
+        this.cedula = cedula;
         this.nombre = nombre;
         this.apellidos = apellidos;
     }

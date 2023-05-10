@@ -28,14 +28,9 @@ public class EmpleadosService {
         return empleado;
     }
 
-    public void eliminarEmpleadoPorCedula(Integer cedula){
-    Optional<Empleado>empleadoOptional=empleadosRepository.findById(cedula);
-    if (!empleadoOptional.isPresent()){
-        throw new EmployeeNotFound("No se encontró el empleado digitado");
-    }
-    this.consultarUnEmpleado(cedula);
-    this.empleadosRepository.deleteById(cedula);
-
+    public Boolean eliminarEmpleadoPorCedula(Integer cedula) {
+        this.empleadosRepository.deleteById(cedula);
+        return true;
     }
 
     public Empleado consultarUnEmpleado(Integer cedula)throws RuntimeException{

@@ -42,6 +42,12 @@ public class Empleado{
     public Empleado() {
     }
 
+    public Empleado(Integer cedula, String nombreDelEmpleado, String apellidoDelEmpleado) {
+        this.cedula = cedula;
+        this.nombreDelEmpleado = nombreDelEmpleado;
+        this.apellidoDelEmpleado = apellidoDelEmpleado;
+    }
+
     public Empleado(int cedula, String nombreDelEmpleado, String apellidoDelEmpleado, int celular, String correoElectronico, String direccionDeResidencia, String ciudad, String antiguedadEnLaEmpresa, String tipoDeSangre, TipoDeEmpleado tipoDeEmpleado) {
         this.cedula = cedula;
         this.nombreDelEmpleado = nombreDelEmpleado;
